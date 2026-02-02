@@ -1,6 +1,18 @@
 ---
 license: mit
 pipeline_tag: automatic-speech-recognition
+language:
+- hi
+- kn
+- ml
+- te
+- en
+- gu
+- pa
+- or
+- bn
+- ta
+- as
 ---
 ```python
 

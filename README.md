@@ -13,6 +13,9 @@ language:
 - bn
 - ta
 - as
+- sa
+- ne
+- mr
 ---
 ```python
 

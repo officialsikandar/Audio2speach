@@ -7,7 +7,7 @@ pipeline_tag: automatic-speech-recognition
 from nemo.collections.asr.models import EncDecRNNTBPEModel
 
 # Load from HF Hub
-model = EncDecRNNTBPEModel.from_pretrained(model_name="ARTPARK-IISc/Vaani-FastConformer-Hindi")
+model = EncDecRNNTBPEModel.from_pretrained(model_name="ARTPARK-IISc/Vaani-FastConformer-Multilingual")
 
 
 # Path to your audio file

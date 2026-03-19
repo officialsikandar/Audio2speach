@@ -16,6 +16,9 @@ language:
 - sa
 - ne
 - mr
+datasets:
+- ARTPARK-IISc/Vaani
+- ARTPARK-IISc/Vaani-transcription-part
 ---
 ```python
 

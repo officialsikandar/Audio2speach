@@ -149,9 +149,22 @@ class SraVaaniTDTModel(PreTrainedModel):
     @classmethod
     def from_pretrained(cls, path, *args, **kwargs):
         config = kwargs.pop("config", None) or SraVaaniTDTConfig.from_pretrained(path)
-        config._name_or_path = path
+        # Resolve the artifact files (TorchScript graphs, preproc.pt, tokenizer.model).
+        # These are not standard HF weight files, so when loading from a hub repo id
+        # they are NOT auto-downloaded — fetch them explicitly. A local directory is
+        # used as-is.
+        local_dir = path
+        if not os.path.isdir(str(path)):
+            from huggingface_hub import snapshot_download
+            local_dir = snapshot_download(
+                str(path),
+                revision=kwargs.get("revision"),
+                token=kwargs.get("token", kwargs.get("use_auth_token")),
+                allow_patterns=["*.ts", "*.pt", "*.model", "*.json", "*.py"],
+            )
+        config._name_or_path = local_dir
         model = cls(config)
-        model._artifacts_dir = path
+        model._artifacts_dir = local_dir
         dtype = kwargs.get("torch_dtype", None)
         if isinstance(dtype, str):
             dtype = None if dtype == "auto" else getattr(torch, dtype, None)

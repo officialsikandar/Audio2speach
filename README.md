@@ -92,7 +92,6 @@ for path, h in zip(sys.argv[1:], hyps):
 | Ao | 57.7 | – | 57.7 |
 | Awadhi | 43.8 | – | 43.8 |
 | Bajjika | 34.4 | – | 34.4 |
-| Bantar | 5.6 | – | 5.6 |
 | Bearybashe | 77.8 | – | 77.8 |
 | Bhatri | 60.3 | – | 60.3 |
 | Bhili | 73.5 | – | 73.5 |
@@ -116,8 +115,7 @@ for path, h in zip(sys.argv[1:], hyps):
 | Kumaoni | 30.4 | – | 30.4 |
 | Kurumali | 11.3 | – | 11.3 |
 | Lambadi | 25.8 | – | 25.8 |
-| Magadhi | 23.0 | 23.0 | – |
-| Magadhi/Magahi | 37.8 | – | 37.8 |
+| Magadhi/Magahi | 30.4 | 23.0| 37.8 |
 | Malvani | 30.4 | – | 30.4 |
 | Marwari | 39.7 | – | 39.7 |
 | Mizo | 25.3 | – | 25.3 |

@@ -64,7 +64,7 @@ for path, h in zip(sys.argv[1:], hyps):
 ## Performance
 ## Scheduled languages
 
-| Language | Avg WER | Commonvoice | Fleurs | Gramvaani | Indictts | Kathbath Test | Mucs | Respin | Vaani Test |
+| Language | Avg WER | CommonVoice | Fleurs | GramVaani | IndicTTS | Kathbath  | MUCS | RESPIN | Vaani  |
 |---|---|---|---|---|---|---|---|---|---|
 | Assamese | 19.4 | 22.6 | 18.8 | – | – | – | – | – | 16.9 |
 | Bengali | 19.8 | 14.1 | 15.2 | – | 26.2 | 12.3 | – | 26.9 | 24.1 |
@@ -86,7 +86,7 @@ for path, h in zip(sys.argv[1:], hyps):
 
 ## Non-scheduled languages
 
-| Language | Avg WER | Respin | Vaani Test |
+| Language | Avg WER | RESPIN | Vaani  |
 |---|---|---|---|
 | Angika | 31.4 | – | 31.4 |
 | Ao | 57.7 | – | 57.7 |

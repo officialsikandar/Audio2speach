@@ -25,7 +25,7 @@ datasets:
 
 This is a **~430 million parameter FastConformer-based Automatic Speech Recognition (ASR)** model with a **hybrid TDT-CTC decoder**. The model is quantized to **FP16**, resulting in a total model size of approximately **900 MB**.
 
-The model was pretrained from scratch using **31,255 hours** of speech data from the **Vaani** dataset, covering **105 languages**. It then underwent an **audio-image alignment** stage using **11 million audio-image pairs** from the Vaani dataset to improve multimodal representations.
+The model was pretrained from scratch using **31,255 hours** of speech data from the **Vaani** dataset, covering **105 languages**. It then underwent an **audio-image alignment** stage using **11 million audio-image pairs** from the **Vaani** dataset to leverage multimodal relationships for learning richer audio representations..
 
 Finally, the model was fine-tuned on approximately **31,270 hours** of transcribed speech data spanning **63 Indian languages and dialects**, using a combination of the Vaani dataset and multiple open-source speech datasets.
 

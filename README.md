@@ -61,6 +61,78 @@ for path, h in zip(sys.argv[1:], hyps):
 # text = proc.batch_decode(model.generate(**inputs))[0]
 
 ```
+## Performance
+## Scheduled languages
+
+| Language | Avg WER | Commonvoice | Fleurs | Gramvaani | Indictts | Kathbath Test | Mucs | Respin | Vaani Test |
+|---|---|---|---|---|---|---|---|---|---|
+| Assamese | 19.4 | 22.6 | 18.8 | – | – | – | – | – | 16.9 |
+| Bengali | 19.8 | 14.1 | 15.2 | – | 26.2 | 12.3 | – | 26.9 | 24.1 |
+| Gujarati | 19.0 | – | 18.2 | – | 18.4 | 14.9 | 26.6 | – | 16.8 |
+| Hindi | 12.4 | 12.7 | 10.9 | 20.93 | 9.1 | 9.1 | 14.6 | 10.8 | 10.8 |
+| Kannada | 27.4 | – | 21.4 | – | 17.4 | 16.6 | – | 27.4 | 54.1 |
+| Konkani | 54.7 | – | – | – | – | – | – | – | 54.7 |
+| Maithili | 27.5 | – | – | – | – | – | – | 20.2 | 34.8 |
+| Malayalam | 27.7 | 33.5 | 19.9 | – | 19.4 | 31.5 | – | – | 34.1 |
+| Manipuri | 41.6 | – | – | – | – | – | – | – | 41.6 |
+| Marathi | 19.7 | 16.6 | 18.1 | – | 14.2 | 17.8 | 22.0 | 16.1 | 33.4 |
+| Nepali | 31.3 | 45.8 | 26.6 | – | – | – | – | – | 21.5 |
+| Odia | 25.7 | 29.4 | 20.3 | – | 18.7 | 21.4 | 21.4 | – | 43.2 |
+| Punjabi | 20.2 | 29.3 | 15.9 | – | – | 13.6 | – | – | 22.1 |
+| Sanskrit | 36.4 | – | – | – | – | 36.4 | – | – | – |
+| Santali | 57.3 | – | – | – | – | – | – | – | 57.3 |
+| Tamil | 26.2 | 28.9 | 28.1 | – | 21.1 | 23.3 | 24.1 | – | 32.0 |
+| Telugu | 25.1 | – | 23.1 | – | 20.9 | 21.3 | 26.4 | 25.4 | 33.5 |
+
+## Non-scheduled languages
+
+| Language | Avg WER | Respin | Vaani Test |
+|---|---|---|---|
+| Angika | 31.4 | – | 31.4 |
+| Ao | 57.7 | – | 57.7 |
+| Awadhi | 43.8 | – | 43.8 |
+| Bajjika | 34.4 | – | 34.4 |
+| Bantar | 5.6 | – | 5.6 |
+| Bearybashe | 77.8 | – | 77.8 |
+| Bhatri | 60.3 | – | 60.3 |
+| Bhili | 73.5 | – | 73.5 |
+| Bhojpuri | 27.8 | 20.8 | 34.8 |
+| Bundeli | 36.0 | – | 36.0 |
+| Chakhesang | 75.8 | – | 75.8 |
+| Chakma | 51.2 | – | 51.2 |
+| Chhattisgarhi | 27.4 | 14.5 | 40.3 |
+| English | 14.8 | – | 14.8 |
+| Garhwali | 53.5 | – | 53.5 |
+| Garo | 9.5 | – | 9.5 |
+| Halbi | 51.6 | – | 51.6 |
+| Haryanvi | 48.1 | – | 48.1 |
+| Idu Mishmi | 64.1 | – | 64.1 |
+| Jaipuri | 28.1 | – | 28.1 |
+| Karbi | 63.3 | – | 63.3 |
+| Khandeshi | 56.6 | – | 56.6 |
+| Khariboli | 27.0 | – | 27.0 |
+| Khorth/Khortha/Khorthkhotta | 41.3 | – | 41.3 |
+| Kokborok | 68.2 | – | 68.2 |
+| Kumaoni | 30.4 | – | 30.4 |
+| Kurumali | 11.3 | – | 11.3 |
+| Lambadi | 25.8 | – | 25.8 |
+| Magadhi | 23.0 | 23.0 | – |
+| Magadhi/Magahi | 37.8 | – | 37.8 |
+| Malvani | 30.4 | – | 30.4 |
+| Marwari | 39.7 | – | 39.7 |
+| Mizo | 25.3 | – | 25.3 |
+| Nagamese | 50.1 | – | 50.1 |
+| Nagpuri/Sadri | 58.8 | – | 58.8 |
+| Powari | 54.2 | – | 54.2 |
+| Rajasthani | 41.8 | – | 41.8 |
+| Rengma | 71.7 | – | 71.7 |
+| Sambalpuri | 62.7 | – | 62.7 |
+| Shekhawati | 19.1 | – | 19.1 |
+| Sumi | 78.5 | – | 78.5 |
+| Surgujia | 37.5 | – | 37.5 |
+| Surjapuri | 69.1 | – | 69.1 |
+| Tulu | 57.3 | – | 57.3 |
+| Wancho | 67.6 | – | 67.6 |
 
 ## Limitations
 

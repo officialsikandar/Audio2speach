@@ -37,11 +37,37 @@ In addition, the model supports numerous regional and low-resource languages and
 
 **Note:** Although the pretraining corpus covered 105 languages, this released model is fine-tuned for **63 Indian languages and dialects**. **Urdu and Kashmiri are not supported** in this release.
 
+
+## Sample Usage
+```
+import sys, torch
+from transformers import AutoModel
+
+REPO = "."
+DEV = "cuda" if torch.cuda.is_available() else "cpu"
+model = AutoModel.from_pretrained(REPO, trust_remote_code=True).to(DEV).eval()
+
+# NeMo-style convenience API (needs sentencepiece; soundfile or stdlib wave for files):
+hyps = model.transcribe(sys.argv[1:], return_hypotheses=True)
+for path, h in zip(sys.argv[1:], hyps):
+    print(f"{path}\t{h.text}")
+
+# --- lower-level alternative (explicit processor) ---
+# from transformers import AutoProcessor
+# import soundfile as sf   # or: import wave (stdlib) for PCM WAV
+# proc = AutoProcessor.from_pretrained(REPO, trust_remote_code=True)
+# wav, sr = sf.read(path, dtype="float32")   # average channels if stereo
+# inputs = proc(wav, sampling_rate=sr, return_tensors="pt").to(DEV)
+# text = proc.batch_decode(model.generate(**inputs))[0]
+
+```
+
 ## Limitations
 
 Although the model supports 63 Indian languages and dialects, the amount of fine-tuning data varies significantly across languages. For several low-resource languages, the available training data is limited, which may result in lower recognition accuracy compared to high-resource languages.
 
 The model **does not support Urdu or Kashmiri**.
+
 
 ## Feedback
 
@@ -67,6 +93,7 @@ hypotheses = model.transcribe([audioPath], return_hypotheses=True)
 print("Transcription:", hypotheses[0].text)
 
 ```
+
 # Citation
 
 If you use this model, please cite the following:

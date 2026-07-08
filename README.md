@@ -43,7 +43,7 @@ In addition, the model supports numerous regional and low-resource languages and
 import sys, torch
 from transformers import AutoModel
 
-REPO = "."
+REPO = "ARTPARK-IISc/SraVaani"
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
 model = AutoModel.from_pretrained(REPO, trust_remote_code=True).to(DEV).eval()
 
@@ -75,24 +75,6 @@ We welcome feedback, suggestions, and bug reports from the community. If you enc
 
 **[vaanicontact@gmail.com](mailto:vaanicontact@gmail.com)**
 
-```python
-
-from nemo.collections.asr.models import EncDecRNNTBPEModel
-
-# Load from HF Hub
-model = EncDecRNNTBPEModel.from_pretrained(model_name="ARTPARK-IISc/Vaani-FastConformer-Multilingual")
-
-
-# Path to your audio file
-audioPath = "sample.wav"
-
-# Transcribe the audio
-
-hypotheses = model.transcribe([audioPath], return_hypotheses=True)
-
-print("Transcription:", hypotheses[0].text)
-
-```
 
 # Citation
 

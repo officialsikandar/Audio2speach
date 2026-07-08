@@ -1,0 +1,18 @@
+{
+  "vocab_size": 5000,
+  "blank_id": 5000,
+  "durations": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "num_durations": 5,
+  "subsampling_factor": 8,
+  "pred_hidden": 640,
+  "pred_rnn_layers": 1,
+  "enc_d_model": 1024,
+  "max_symbols": 10,
+  "feat_in": 128
+}

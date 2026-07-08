@@ -1,0 +1,28 @@
+{
+  "model_type": "sravaani_tdt",
+  "architectures": [
+    "SraVaaniTDTModel"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_sravaani.SraVaaniTDTConfig",
+    "AutoModel": "modeling_sravaani.SraVaaniTDTModel",
+    "AutoProcessor": "processing_sravaani.SraVaaniProcessor"
+  },
+  "vocab_size": 5000,
+  "blank_id": 5000,
+  "durations": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "num_durations": 5,
+  "pred_hidden": 640,
+  "pred_rnn_layers": 1,
+  "max_symbols": 10,
+  "enc_d_model": 1024,
+  "feat_in": 128,
+  "sample_rate": 16000,
+  "subsampling_factor": 8
+}

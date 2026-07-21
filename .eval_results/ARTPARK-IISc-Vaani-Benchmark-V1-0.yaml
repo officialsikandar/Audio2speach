@@ -1,0 +1,5 @@
+- dataset:
+    id: ARTPARK-IISc/Vaani-Benchmark-V1.0
+    task_id: Hindi_WER
+  date: '2026-07-20'
+  value: 10.9

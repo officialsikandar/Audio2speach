@@ -145,7 +145,7 @@ The model **does not support Urdu or Kashmiri**.
 
 We welcome feedback, suggestions, and bug reports from the community. If you encounter any issues or have questions about the model, please contact us at:
 
-**[vaanicontact@gmail.com](mailto:vaanicontact@gmail.com)**
+**[vaanicontact@gmail.com](mailto:vaanicontact@gmail.com)** and agneedh@artpark.in 
 
 
 # Citation

@@ -44,7 +44,7 @@ In addition, the model supports numerous regional and low-resource languages and
 import sys, torch
 from transformers import AutoModel
 access_token=<hf_token>
-REPO = "ARTPARK-IISc/SraVaani"
+REPO = "ARTPARK-IISc/SraVaani-1.0"
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
 model = AutoModel.from_pretrained(REPO, trust_remote_code=True,token=access_token).to(DEV).eval()
 

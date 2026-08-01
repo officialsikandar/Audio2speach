@@ -140,6 +140,14 @@ Although the model supports 63 Indian languages and dialects, the amount of fine
 
 The model **does not support Urdu or Kashmiri**.
 
+## Fine-tuning
+You can fine-tune the SraVaani 1.0 speech recognition model on your own data using the [SraVaani repo](https://github.com/ARTPARK-Speech-Models/SraVaani).
+
+The repo includes scripts to download the base checkpoint and run fine-tuning with NVIDIA NeMo on custom Indian-language audio. It also includes a notebook demonstrating an example fine-tuning run. 
+
+Checkpoint access:
+The checkpoint download and request-access links are available in the repo's README. If you don't already have access, you can request it there — access will be granted as soon as possible.
+
 
 ## Feedback
 

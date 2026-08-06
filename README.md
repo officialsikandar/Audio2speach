@@ -63,6 +63,11 @@ for path, h in zip(sys.argv[1:], hyps):
 
 
 ```
+
+## ONNX Export
+
+The ONNX version of this model, along with a sample inference script is available here: [**SraVaani ONNX**](https://drive.google.com/file/d/1ap6qSg-DG5va-noeNY8diMVLqygutqBa/view?usp=sharing)
+
 ## Performance
 ## Scheduled languages
 

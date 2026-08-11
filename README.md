@@ -24,18 +24,16 @@ datasets:
 ## Model Overview
 
 This is a **~430 million parameter FastConformer-based Automatic Speech Recognition (ASR)** model with a **hybrid TDT-CTC decoder**. The model is quantized to **FP16**, resulting in a total model size of approximately **900 MB**.
-
 The model was pretrained from scratch using **31,255 hours** of speech data from the **Vaani** dataset, covering **105 languages**. It then underwent an **audio-image alignment** stage using **11 million audio-image pairs** from the **Vaani** dataset to leverage multimodal relationships for learning richer audio representations..
-
-Finally, the model was fine-tuned on approximately **31,270 hours** of transcribed speech data spanning **63 Indian languages and dialects**, using a combination of the Vaani dataset and multiple open-source speech datasets.
+Finally, the model was fine-tuned on approximately **31,270 hours** of transcribed speech data spanning **65 Indian languages and dialects**, using a combination of the Vaani dataset and multiple open-source speech datasets.
 
 ## Supported Languages
 
-The model supports **63 Indian languages and dialects**, covering all major language families spoken across the country. It includes widely spoken scheduled languages such as Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, and Telugu.
+The model supports **65 Indian languages and dialects**, covering all major language families spoken across the country. It includes widely spoken scheduled languages such as Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, and Telugu.
 
 In addition, the model supports numerous regional and low-resource languages and dialects, including Angami, Ao, Awadhi, Bajjika, Bearybashe, Bhili, Bhojpuri, Bundeli, Chakhesang, Chakma, Chhattisgarhi, Garo, Garhwali, Gondi, Halbi, Haryanvi, Idu Mishmi, Karbi, Khariboli, Khortha, Kokborok, Kurukh, Magadhi, Malvani, Marwari, Mizo, Nagamese, Nyishi, Rajasthani, Rengma, Rongmei, Sadri, Sambalpuri, Sumi, Surgujia, Surjapuri, Tagin, Tulu, and Wancho.
 
-**Note:** Although the pretraining corpus covered 105 languages, this released model is fine-tuned for **63 Indian languages and dialects**. **Urdu and Kashmiri are not supported** in this release.
+**Note:** Although the pretraining corpus covered 105 languages, this released model is fine-tuned for **65 Indian languages and dialects**. Urdu and Kashmiri are not supported in this release.
 
 
 ## Sample Usage

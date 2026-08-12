@@ -141,7 +141,6 @@ The ONNX version of this model, along with a sample inference script is availabl
 
 Although the model supports 63 Indian languages and dialects, the amount of fine-tuning data varies significantly across languages. For several low-resource languages, the available training data is limited, which may result in lower recognition accuracy compared to high-resource languages.
 
-The model **does not support Urdu or Kashmiri**.
 
 ## Fine-tuning
 You can fine-tune the SraVaani 1.0 speech recognition model on your own data using the [SraVaani repo](https://github.com/ARTPARK-Speech-Models/SraVaani).

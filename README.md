@@ -163,13 +163,13 @@ We welcome feedback, suggestions, and bug reports from the community. If you enc
 
 If you use this model, please cite the following:
 ```
-@misc{pulikodan2026vaanicapturinglanguagelandscape,
-      title={VAANI: Capturing the language landscape for an inclusive digital India}, 
-      author={Sujith Pulikodan and Abhayjeet Singh and Agneedh Basu and Nihar Desai and Pavan Kumar J and Pranav D Bhat and Raghu Dharmaraju and Ritika Gupta and Sathvik Udupa and Saurabh Kumar and Sumit Sharma and Vaibhav Vishwakarma and Visruth Sanka and Dinesh Tewari and Harsh Dhand and Amrita Kamat and Sukhwinder Singh and Shikhar Vashishth and Partha Talukdar and Raj Acharya and Prasanta Kumar Ghosh},
+@misc{pulikodan2026sravaani10scalinginclusive,
+      title={SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages}, 
+      author={Sujith Pulikodan and Agneedh Basu and Pavan Kumar J and Pranav D Bhat and Suryansh Shukla and Nihar Desai and Prasanta Kumar Ghosh},
       year={2026},
-      eprint={2603.28714},
+      eprint={2608.08235},
       archivePrefix={arXiv},
       primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2603.28714}, 
+      url={https://arxiv.org/abs/2608.08235}, 
 }
 ```

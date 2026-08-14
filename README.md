@@ -139,7 +139,7 @@ The ONNX version of this model, along with a sample inference script is availabl
 
 ## Limitations
 
-Although the model supports 63 Indian languages and dialects, the amount of fine-tuning data varies significantly across languages. For several low-resource languages, the available training data is limited, which may result in lower recognition accuracy compared to high-resource languages.
+Although the model supports 65 Indian languages and dialects, the amount of fine-tuning data varies significantly across languages. For several low-resource languages, the available training data is limited, which may result in lower recognition accuracy compared to high-resource languages.
 
 
 ## Fine-tuning

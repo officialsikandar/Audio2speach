@@ -69,7 +69,7 @@ The ONNX version of this model, along with a sample inference script is availabl
 ## Performance
 ## Scheduled languages
 
-| Language | Avg WER | CommonVoice | Fleurs | GramVaani | IndicTTS | Kathbath  | MUCS | RESPIN | Vaani  |
+<!-- | Language | Avg WER | CommonVoice | Fleurs | GramVaani | IndicTTS | Kathbath  | MUCS | RESPIN | Vaani  |
 |---|---|---|---|---|---|---|---|---|---|
 | Assamese | 19.4 | 22.6 | 18.8 | – | – | – | – | – | 16.9 |
 | Bengali | 19.8 | 14.1 | 15.2 | – | 26.2 | 12.3 | – | 26.9 | 24.1 |
@@ -87,7 +87,30 @@ The ONNX version of this model, along with a sample inference script is availabl
 | Sanskrit | 36.4 | – | – | – | – | 36.4 | – | – | – |
 | Santali | 57.3 | – | – | – | – | – | – | – | 57.3 |
 | Tamil | 26.2 | 28.9 | 28.1 | – | 21.1 | 23.3 | 24.1 | – | 32.0 |
-| Telugu | 25.1 | – | 23.1 | – | 20.9 | 21.3 | 26.4 | 25.4 | 33.5 |
+| Telugu | 25.1 | – | 23.1 | – | 20.9 | 21.3 | 26.4 | 25.4 | 33.5 | -->
+
+| Language | Avg WER | CommonVoice | Fleurs | GramVaani | IndicTTS | IndicVoices-R | Kathbath | MUCS | RESPIN | Vaani |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Assamese | 19.4 | 22.6 | 18.8 | – | – | – | – | – | – | 16.9 |
+| Bengali | 19.8 | 14.1 | 15.2 | – | 26.2 | – | 12.3 | – | 26.9 | 24.1 |
+| Bodo | 20.9 | – | – | – | – | 20.9 | – | – | – | – |
+| Dogri | 32.0 | – | – | – | – | 32.0 | – | – | – | – |
+| Gujarati | 19.0 | – | 18.2 | – | 18.4 | – | 14.9 | 26.6 | – | 16.8 |
+| Hindi | 12.4 | 12.7 | 10.9 | 20.93 | 9.1 | – | 9.1 | 14.6 | 10.8 | 10.8 |
+| Kannada | 27.4 | – | 21.4 | – | 17.4 | – | 16.6 | – | 27.4 | 54.1 |
+| Konkani | 54.7 | – | – | – | – | – | – | – | – | 54.7 |
+| Maithili | 27.5 | – | – | – | – | – | – | – | 20.2 | 34.8 |
+| Malayalam | 27.7 | 33.5 | 19.9 | – | 19.4 | – | 31.5 | – | – | 34.1 |
+| Manipuri | 41.6 | – | – | – | – | – | – | – | – | 41.6 |
+| Marathi | 19.7 | 16.6 | 18.1 | – | 14.2 | – | 17.8 | 22.0 | 16.1 | 33.4 |
+| Nepali | 31.3 | 45.8 | 26.6 | – | – | – | – | – | – | 21.5 |
+| Odia | 25.7 | 29.4 | 20.3 | – | 18.7 | – | 21.4 | 21.4 | – | 43.2 |
+| Punjabi | 20.2 | 29.3 | 15.9 | – | – | – | 13.6 | – | – | 22.1 |
+| Sanskrit | 36.4 | – | – | – | – | – | 36.4 | – | – | – |
+| Santali | 57.3 | – | – | – | – | – | – | – | – | 57.3 |
+| Sindhi | 23.2 | – | – | – | – | 23.2 | – | – | – | – |
+| Tamil | 26.2 | 28.9 | 28.1 | – | 21.1 | – | 23.3 | 24.1 | – | 32.0 |
+| Telugu | 25.1 | – | 23.1 | – | 20.9 | – | 21.3 | 26.4 | 25.4 | 33.5 |
 
 ## Non-scheduled languages
 

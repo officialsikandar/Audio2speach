@@ -163,7 +163,6 @@ We welcome feedback, suggestions, and bug reports from the community. If you enc
 
 
 # Citation
-
 If you use this model, please cite the following:
 ```
 @misc{pulikodan2026sravaani10scalinginclusive,
